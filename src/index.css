@@ -45,3 +45,78 @@ input, button {
     border-radius: 4px;
     font-size: 1rem;
 }
+/* NavBar */
+.navbar {
+  /* sticky top, background, flex layout, padding */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.nav-logo {
+  /* font size, weight */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  /* spacing between links */
+  margin-left: 20px;
+}
+
+.nav-links a.active {
+  /* visually differentiate the active route */
+  color: #ff6347; /* tomato color */
+}
+
+/* Badge */
+.badge {
+  /* small circle, contrasting background, positioned inline */
+  display: inline-block;
+  background-color: #ff6347; /* tomato color */
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+/* Detail Page */
+.detail-page {
+  /* max-width, centered, padding */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nutrition-table {
+  /* grid or table layout for nutriment rows */
+  width: 100%;
+  border-collapse: collapse;
+  gap: 10px;
+  display: grid;
+}
+
+/* Validation */
+.validation-error {
+  /* red/amber color, small font */
+  color: #ff6347; /* tomato color */
+  font-size: 0.8rem;
+}
+
+/* Pages */
+.page {
+  /* consistent padding and max-width for all page components */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
